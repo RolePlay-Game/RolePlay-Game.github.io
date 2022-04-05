@@ -1,0 +1,31 @@
+var articles = [
+    {
+        title: 'home',
+        link: 'index.html'
+    },
+    {
+        title: 'projects',
+        link: 'viev.html'
+    },
+    {
+        title: 'Article 3',
+        link: 'test3.html'
+    }
+]
+
+var blog = '<ul>', article, amountArticles = articles.length
+
+for (article = 0; article < amountArticles; article++) {
+    blog += `
+    <lu> 
+        <a href= "${articles[article].link}" class="article">
+            <h3>${articles[article].title}</h3>
+        </a>
+    </lu>`
+}
+
+blog += '</ul>'
+
+var root = document.querySelector('#root')
+
+root.innerHTML = blog

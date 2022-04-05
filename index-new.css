@@ -1,0 +1,232 @@
+body {
+    background: #edf3f6;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url(/images/fone-2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#aaa {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo-button {
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgba(240, 248, 255, 0.678);
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.logo-button:hover {
+    background-color: white;
+}
+
+/* Main */
+
+.mail-text {
+    margin-top: 100px;
+}
+
+.main-bloc-text {
+    background-color: rgba(240, 248, 255, 0.678);
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    backdrop-filter: blur(5px);
+}
+
+.startplay {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 200px;
+}
+
+.start-play-button {
+    background-color: rgba(253, 253, 253, 0.808);
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+    backdrop-filter: blur(5px);
+    transition-property: box-shadow background-color;   
+             /*Врмя изменения  */
+            transition-duration: 1s;
+            transition-delay: .1s;
+}
+
+.start-play-button:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 1px 40px rgb(255, 255, 255);
+}
+
+.start-play-button h3 {
+    font-weight: bold;
+}
+
+.server-1 {
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+
+
+.onlite-content {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(240, 248, 255, 0.678);
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+ 
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    
+}
+
+
+.content-naw {
+    display: flex;
+    justify-content: center;
+}
+
+.server-1 {
+    margin-top: 30px;
+    
+}
+
+.trademc-online {
+    font-weight: bold;
+}
+
+
+.blur {
+    backdrop-filter: blur(5px);
+    height: 650px;
+}
+
+
+.cartocha {
+    padding:50px;
+}
+
+.text-proghect {
+    background-color: rgba(240, 248, 255, 0.678);
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+} 
+
+.text-proghect h2 {
+    font-weight: bold;
+}
+
+
+.proektu {
+    width: auto;
+    background-color: #edf3f6;
+    height: 500px;
+    margin-top: 0;
+    border: none;
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+
+
+.prtext {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.block-pr {
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.678);
+    border-radius: 50px;
+    text-align: center;
+    /* анимка */
+     transition-property: box-shadow;
+     transition-duration: 0.5s;
+     transition-delay: .1s;
+}
+
+.block-pr:hover {
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+}
+
+.foto img {
+    border-radius: 30px;
+}
+
+#ds {
+    height: 143px;
+}
+
+
+
+
+/* Футер */
+
+.footers {
+    
+    background-color: rgba(240, 248, 255, 0.678);
+    height: 110px;
+    backdrop-filter: blur(5px);
+}
+
+.text-f img {
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.text-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.text-f p {
+    margin-top: 30px;
+}
+
+
+
+.sety img {
+    height: 40px;
+}

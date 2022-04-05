@@ -246,14 +246,14 @@ body {
     justify-content: center;
     align-items: center;
 
-    transition-property: transform;   
+    transition-property: box-shadow;   
              /*Врмя изменения  */
             transition-duration: 1s;
             transition-delay: .1s;
 }
 
 .block-p:hover {
-    transform: scale(1.2);
+    box-shadow:0 1px 40px rgb(158, 156, 156);
 }
 
 #play {
