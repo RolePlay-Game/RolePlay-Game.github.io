@@ -1,0 +1,121 @@
+#brend {
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+body {
+    background-image: url(/images/m-fone.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    
+    
+}
+
+main {
+    /* background-color: #e0d2cd; */
+}
+
+@media (max-width: 1259px ) {
+    body {
+        background-size: 130%;
+    }
+}
+
+@media (max-width: 1123px ) {
+    body {
+        background-size: 140%;
+    }
+}
+
+@media (max-width: 1030px ) {
+    body {
+        background-size: 150%;
+    }
+}
+
+@media (max-width: 947px ) {
+    body {
+        background-size: 170%;
+    }
+}
+
+@media (max-width: 992px ) {
+    .col-lg-6 {
+        margin: 20px;
+    }
+    body {
+        background-size: 250%;
+    }
+}
+
+@media (max-width: 747px ) {
+    body {
+        background-size: 300%;
+        
+    }
+}
+
+@media (max-width: 611px ) {
+    body {
+        background-size: 400%;
+    }
+
+    .card-1 img {
+        height: 100px;
+    }
+}
+
+#aaa {
+    text-decoration: none;
+}
+
+/* Main */
+
+
+
+.main-block {
+    margin-top: 70px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 150px;
+    font-family: TTNorms;
+    font-weight: bold;
+}
+.text h1 {
+    font-weight: bold;
+}
+
+.foto img {
+    height: 300px;
+    border-radius: 10px;
+}
+.text-1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 10px;
+    border-radius: 10px;
+    transition-property: background-color;   
+    transition-duration: 1s;
+    transition-delay: .1s;
+}
+
+.text-1:hover {
+    background-color: white;
+}
+
+.text-1 p {
+    color: rgb(102, 101, 101);
+}
+
+.right  {
+    text-align: right;
+}
+
+.probel {
+    height: 100px;
+}

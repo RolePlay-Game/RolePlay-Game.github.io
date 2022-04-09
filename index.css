@@ -1,0 +1,289 @@
+body {
+    background: #edf3f6;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url(/images/fone.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.menushka-logo img {
+    margin-top: 5px;
+    height: 80px;
+    /* border-radius: 50px; */
+}
+
+
+.menushka {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(250, 192, 0);
+    
+}
+
+
+
+.menushka a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+}
+
+.menushka a:hover {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(122, 122, 122);
+}
+
+.menushka-sety img {
+    height: 80px;
+    margin-top: 5px;
+}
+
+.menushka a {
+    font-size: 30px;
+}
+
+@media (max-width: 900px ) {
+    .menushka-sety {
+        display: none;
+    }
+}
+
+@media (max-width: 650px ) {
+    .menushka-news {
+        display: none;
+    }
+}
+
+@media (max-width: 500px ) {
+    .menushka-progehx {
+        display: none;
+    }
+    .menushka-main {
+        display: none;
+    }
+}
+
+
+/* Main */
+
+.about {
+    margin-top: 50px;
+    
+}
+.block-1 img {
+    border-radius: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.block-1 {
+    text-align: center;
+    background-color: rgb(250, 192, 0);
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+
+
+.start-play {
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+
+    border: 2px solid white;
+            transition-property: background;
+            transition-duration: 1s;
+            transition-delay: .1s;
+}
+
+#aaa {
+    text-decoration: none;
+    color: black;
+}
+
+
+.start-play:hover {
+    background: rgb(238, 238, 238);
+            
+}
+
+.block-2 {
+    text-align: center;
+    margin-top: 20px;
+   
+    
+}
+
+@media (max-width: 1205px ) {
+    body {
+        background-size: 150%;
+    }
+    
+}
+
+@media (max-width: 804px ) {
+    .block-2 img {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 993px ) {
+    .foto img {
+        height: 70px;
+    }
+   
+}
+
+@media (max-width: 573px ) {
+
+   #ds {
+       display: none;
+   }
+   .block-pr {
+       margin: 10px;
+   }
+   .block-p {
+       margin-top: 40px;
+       width: 100;
+   }
+   body {
+       background-image: none;
+   }
+
+}
+
+@media (max-width: 504px ) {
+    #yudi {
+        display: none;
+    }
+    .proekt {
+        display: none;
+    }
+}
+
+/* Проекты */
+
+.proektu {
+    width: auto;
+    background-color: #edf3f6;
+    height: 500px;
+    margin-top: 0;
+    border: none;
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+
+
+.prtext {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.block-pr {
+    padding: 20px;
+    background-color: rgba(250, 192, 0, 0.788);
+    border-radius: 50px;
+    
+    /* анимка */
+     transition-property: box-shadow;
+     transition-duration: 0.5s;
+     transition-delay: .1s;
+}
+
+.block-pr:hover {
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+}
+
+.foto img {
+    border-radius: 30px;
+}
+
+#ds {
+    height: 143px;
+}
+
+/* Выбрать проект */
+
+.proekt {
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block-p {
+    background-color: rgb(250, 192, 0);
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: box-shadow;   
+             /*Врмя изменения  */
+            transition-duration: 1s;
+            transition-delay: .1s;
+}
+
+.block-p:hover {
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+}
+
+#play {
+    height: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Футер */
+
+.footers {
+    margin-top: 200px;
+    background-color: #edf3f6;
+    height: 110px;
+}
+
+.text-f img {
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.text-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-f p {
+    margin-top: 30px;
+}

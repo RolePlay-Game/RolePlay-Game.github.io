@@ -1,0 +1,113 @@
+#brend {
+    height: 50px;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(/images/m-fone.png);
+    background-repeat: no-repeat;
+    background-size:110%;
+    
+}
+
+@media (max-width: 1259px ) {
+    body {
+        background-size: 130%;
+    }
+}
+
+@media (max-width: 1123px ) {
+    body {
+        background-size: 140%;
+    }
+}
+
+@media (max-width: 1030px ) {
+    body {
+        background-size: 150%;
+    }
+}
+
+@media (max-width: 947px ) {
+    body {
+        background-size: 170%;
+    }
+}
+
+@media (max-width: 992px ) {
+    .col-lg-6 {
+        margin: 20px;
+    }
+    body {
+        background-size: 250%;
+    }
+}
+
+@media (max-width: 747px ) {
+    body {
+        background-size: 300%;
+        
+    }
+}
+
+@media (max-width: 611px ) {
+    body {
+        background-size: 400%;
+    }
+
+    .card-1 img {
+        height: 100px;
+    }
+}
+
+#aaa {
+    text-decoration: none;
+}
+
+.block-1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.block-1 img {
+    border-radius: 30px;
+}
+
+.card-1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(218, 218, 218, 0.336);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.button-1 {
+    background-color: white;
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    transition-property: transform background-color box-shadow;   
+     transition-duration: 0.5s;
+    transition-delay: .1s;
+}
+
+
+.button-1:hover {
+    background-color: rgb(231, 231, 231);
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+    color: black;
+    
+}
+
+
+
+.block-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

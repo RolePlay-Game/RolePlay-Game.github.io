@@ -1,0 +1,146 @@
+
+body {
+    background-image: url(/images/fone-2.png);
+    background-attachment: fixed;
+}
+
+
+/* кнопка */
+
+.gomain {
+    background-color: rgba(247, 250, 252, 0.76);
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    transition-property: box-shadow background-color;
+     transition-duration: 0.5s;
+     transition-delay: .1s;
+}
+
+.gomain h4 {
+    color: black;
+    font-weight: bold;
+}
+
+.gomain:hover {
+    background-color: white;
+    box-shadow:0 1px 40px white;
+}
+
+
+/* Надпись */
+
+.m-text {
+    text-align: center;
+    
+}
+
+/* Проекты */
+
+.content {
+    background-color: rgba(240, 248, 255, 0.678);
+    backdrop-filter: blur(5px);
+    margin: 50px;
+    height: 700px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.proekt {
+    margin-top: 60px;
+    
+}
+
+.block-1 {
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px;
+    transition-property: box-shadow;
+            transition-duration: 1s;
+            transition-delay: .1s;
+}
+
+
+.block-1:hover {
+    box-shadow:0 1px 30px gray;
+}
+
+.crmp img {
+    height: 100px;
+    border-radius: 30px;
+}
+
+.crmp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1 {
+    padding: 10px;
+    background-color: rgb(233, 235, 236);
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition-property: box-shadow background-color;
+            transition-duration: 0.5s;
+            transition-delay: .1s;
+}
+
+.button-1:hover {
+    box-shadow:0 1px 40px gray;
+    background-color: rgb(216, 216, 216);
+}
+
+.button-1 h3 {
+    text-decoration: none;
+    color: black;
+}
+
+#aaa {
+    text-decoration: none;
+}
+
+/* Футер */
+
+.footers {
+    
+    background-color: rgba(240, 248, 255, 0.678);
+    height: 110px;
+    backdrop-filter: blur(5px);
+}
+
+.text-f img {
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.text-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.text-f p {
+    margin-top: 30px;
+}
+
+
+
+.sety img {
+    height: 40px;
+}
